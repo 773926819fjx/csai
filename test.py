@@ -5,3 +5,8 @@ def divisors(n):
     """
     return [x for x in range(1,n) if n%x==0]
 print(divisors(12))
+
+
+if __name__=='__main__':
+    import doctest
+    doctest.testmod(verbose=True)
