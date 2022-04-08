@@ -14,10 +14,10 @@ def neighbor_digits(num, prev_digit=-1):
     "*** YOUR CODE HERE ***"
     num =list(str(num))
     count = 0
-    for x in num[1:]:
+    for x in num:
         if (x == num[0]):
             count = count + 1
-    for x in num[:len(num)-1:-1]:
+    for x in num[::-1]:
         if (x == num[-1]):
             count = count + 1 
     return count
