@@ -42,6 +42,18 @@ def pingpong(n):
     """
     "*** YOUR CODE HERE ***"
 
+    def pp(start, count, step):
+        if count == n:
+            return start
+        elif count % 8 == 0 or num_eights(count) > 0:
+            return pp(start - step, count + 1,
+                      -step)  # 如果count计数满足条件，起始值减去步长，步长取反，count继续计数
+        else:
+            return pp(start + step, count + 1,
+                      step)  # 如果count计数不满足条件，起始值加上步长，步长不变，count继续计数
+
+    return pp(1, 1, 1)  # 初始状态，起始位置为1，计数为1，步长为1
+
 
 if __name__ == '__main__':
     import doctest
