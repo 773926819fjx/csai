@@ -36,3 +36,19 @@ names[0]
 names[-1]
 names.index("Spamela")
 names.copy()
+
+s = [2, 3]
+t = [5, 6]
+s.append(4)
+s
+s.append(t)
+s
+t = 0
+
+s = [2, 3]
+t = [5, 6]
+s.extend(4)  # error
+s
+s.extend(t)
+s
+t = 0
