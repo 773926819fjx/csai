@@ -23,3 +23,16 @@ min(gymnasts, key = lambda scores: min(scores[1:]))
 max(gymnasts, key = lambda scores: sum(scores[1:], 0))
 max(gymnasts, key = lambda scores: scores[1])
 
+name = "Psadaad"
+type(name)
+name[0]
+name[4:]
+name.upper()
+name.lower()
+
+names = ["Pamela", "Spamela", "Pammyla", "ELa"]
+type(names)
+names[0]
+names[-1]
+names.index("Spamela")
+names.copy()
