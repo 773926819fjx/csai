@@ -1,0 +1,4 @@
+git config --global http.sslVerify false
+git config --global user.name "maniact"
+git config --global user.email "773926819@qq.com"
+git config --global credential.helper store
