@@ -18,7 +18,7 @@ class rational:
         if x % y == 0:
             return x//y
         else:
-            return str(x//b) + '/' + str(y // b)\
+            return str(x//b) + '/' + str(y // b)
                 
 a = input().split()
 b = []
