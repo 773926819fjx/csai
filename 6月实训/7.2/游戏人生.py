@@ -28,7 +28,7 @@ class Preson:
         print("当前战斗力:{}".format(self.power))
 
     def judge(self):
-        if self.power<=0:
+        if self.power <= 0:
             return False
         else:
             return True
