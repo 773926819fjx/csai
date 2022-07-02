@@ -17,7 +17,6 @@ with ExcelWriter('营业额.xlsx') as file:
 
 fread = pd.read_excel('营业额.xlsx', engine='openpyxl')
 data = fread.iloc[1:, 1:2]
-    # print(data)
 count = 0
 total = 0
 for index, row in data.iterrows():
