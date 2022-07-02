@@ -5,4 +5,3 @@ conda update conda
 conda update anaconda
 conda update --all
 PYTHONIOENCODING=UTF8
-https://10.177.76.140:1043/
