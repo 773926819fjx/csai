@@ -1,0 +1,8 @@
+C:\Anaconda3
+C:\Anaconda3\Library\bin
+C:\Anaconda3\Scripts
+conda update conda
+conda update anaconda
+conda update --all
+PYTHONIOENCODING=UTF8
+https://10.177.76.140:1043/
