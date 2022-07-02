@@ -12,4 +12,4 @@ with open('营业额.csv', 'w', newline='', encoding='utf-8') as cfile:
 
 with ExcelWriter('营业额.xlsx') as ew:  # pylint: disable=abstract-class-instantiated
     # 将csv文件转换为excel文件
-    pd.read_csv("营业额.csv").to_excel(ew, sheet_name="Sheet1", index=False) 
+    pd.read_csv("营业额.csv").to_excel(ew, sheet_name="Sheet1", index=False)
